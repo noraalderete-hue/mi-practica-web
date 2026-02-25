@@ -1,0 +1,130 @@
+/* =================================
+   1. Configuraciones Generales 
+   =================================
+*/
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Fuente moderna */
+    background-color: #f4f4f9; /* Fondo muy claro */
+    color: #333; /* Color de texto principal */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6; /* Espaciado cómodo entre líneas */
+}
+
+/* =================================
+   2. Tipografía (Encabezados y Párrafos)
+   =================================
+*/
+
+/* Encabezado Principal */
+h1 {
+    color: #0056b3; /* Azul oscuro para el título principal */
+    border-bottom: 3px solid #0056b3; /* Línea de división bajo el título */
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+/* Encabezados Secundarios */
+h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Gris oscuro para subtítulos */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los distintos niveles para ver la jerarquía */
+h6 {
+    color: #6c757d; /* Color más suave para el H6 */
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+
+/* =================================
+   3. Contenedores y Estructura
+   =================================
+*/
+
+/* Estilo para el contenedor DIV principal */
+div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff; /* Fondo blanco dentro del div */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo para la línea horizontal */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #adb5bd; /* Gris medio */
+    margin: 40px 0;
+}
+
+
+/* =================================
+   4. Elementos en Línea (Links, Imágenes, Spans, Saltos)
+   =================================
+*/
+
+/* Estilo para enlaces (<a>) */
+a {
+    color: #007bff; /* Azul vibrante */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Estilo para imágenes (<img>) */
+img {
+    border: 4px solid #007bff; /* Borde azul para destacar la imagen */
+    border-radius: 50%; /* La hace circular */
+    display: block; /* La convierte en bloque para centrarla mejor */
+    margin: 15px 0 15px 0;
+}
+
+/* El estilo de <span> se deja en el HTML como ejemplo, pero se puede estilizar aquí: */
+span {
+    padding: 3px 6px;
+    border-radius: 3px;
+    background-color: #e0f7fa; /* Fondo azul muy claro */
+    color: #0056b3; /* Texto azul oscuro */
+    font-style: italic;
+}
+
+
+/* =================================
+   5. Listas (UL y OL)
+   =================================
+*/
+
+/* Estilo base para ambas listas */
+ul, ol {
+    margin-left: 20px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+/* Estilo para los ítems de la lista */
+li {
+    margin-bottom: 5px;
+    /* Usa el color principal para las viñetas/números (navegadores lo soportan) */
+    color: #007bff; 
+}
+
+/* Estilo de texto dentro del ítem de la lista */
+li:last-child {
+    /* Quita el color al texto solo para ver la viñeta/número azul */
+    color: #333; 
+}
